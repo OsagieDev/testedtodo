@@ -15,11 +15,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :development, :test do 
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 3.0.0.beta'
 end
 
 group :test do
-  gem 'capybara', '~> 2.1.0'
+  gem 'capybara'
 end
 
 # Use ActiveModel has_secure_password
